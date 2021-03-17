@@ -1,4 +1,4 @@
-FROM node:8.4.0
+FROM node:8.16.0
 
 RUN apt-get update -y && \
     apt-get install -y ocaml libelf1 && \
