@@ -24,7 +24,7 @@
     "expo": "^25.0.0",
     "prop-types": "^15.5.10",
     "react": "16.2.0",
-    "react-native": "^0.52.0",
+    "react-native": "^0.59.0",
     "react-navigation": "link:../..",
     "react-navigation-redux-helpers": "^1.0.0",
     "react-redux": "^5.0.6",
