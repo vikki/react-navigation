@@ -8,13 +8,16 @@
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
-    "test": "node node_modules/jest/bin/jest.js && flow"
+    "test": "node node_modules/jest/bin/jest.js && flow",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "expo": "^25.0.0",
     "react": "16.2.0",
     "react-native": "^0.52.0",
-    "react-navigation": "link:../.."
+    "react-navigation": "link:../..",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "babel-jest": "^21.0.0",
@@ -40,5 +43,6 @@
     "transformIgnorePatterns": [
       "/node_modules/(?!react-native|react-navigation)/"
     ]
-  }
+  },
+  "snyk": true
 }
