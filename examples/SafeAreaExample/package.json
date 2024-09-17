@@ -2,9 +2,9 @@
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "dependencies": {
-    "expo": "^25.0.0",
-    "react": "16.2.0",
-    "react-native": "^0.52.0",
+    "expo": "^50.0.0",
+    "react": "16.5.0",
+    "react-native": "^0.69.12",
     "react-native-platform-touchable": "^1.1.1",
     "react-navigation": "link:../.."
   },
