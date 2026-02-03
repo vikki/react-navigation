@@ -1,0 +1,42 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - react-redux > lodash:
+        patched: '2026-02-03T00:52:32.465Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-redux > lodash
+    - redux > lodash:
+        patched: '2026-02-03T00:52:32.465Z'
+        id: SNYK-JS-LODASH-567746
+        path: redux > lodash
+    - expo > @expo/vector-icons > lodash:
+        patched: '2026-02-03T00:52:32.465Z'
+        id: SNYK-JS-LODASH-567746
+        path: expo > @expo/vector-icons > lodash
+    - expo > babel-preset-expo > babel-plugin-transform-decorators-legacy > babel-template > lodash:
+        patched: '2026-02-03T00:52:32.465Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          expo > babel-preset-expo > babel-plugin-transform-decorators-legacy >
+          babel-template > lodash
+    - expo > babel-preset-expo > babel-preset-react-native > babel-plugin-react-transform > lodash:
+        patched: '2026-02-03T00:52:32.465Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          expo > babel-preset-expo > babel-preset-react-native >
+          babel-plugin-react-transform > lodash
+    - expo > babel-preset-expo > babel-plugin-transform-decorators-legacy > babel-template > babel-traverse > lodash:
+        patched: '2026-02-03T00:52:32.465Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          expo > babel-preset-expo > babel-plugin-transform-decorators-legacy >
+          babel-template > babel-traverse > lodash
+    - expo > babel-preset-expo > babel-preset-react-native > react-transform-hmr > react-proxy > lodash:
+        patched: '2026-02-03T00:52:32.465Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          expo > babel-preset-expo > babel-preset-react-native >
+          react-transform-hmr > react-proxy > lodash
